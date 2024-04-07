@@ -1,0 +1,95 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #102a43;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #212121;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: purple 5px 5px 25px;
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Playlist styles */
+#playlist {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#playlist h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.video-item {
+    background-color: #212121;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.video-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.video-item h3 {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+}
+#enroll-button {
+    cursor: pointer; /* Change cursor to pointer on hover to indicate interactivity */
+    padding: 10px 20px; /* Add padding to make it look like a button */
+    background-color: #007bff; /* Set background color */
+    color: #fff; /* Set text color */
+    border-radius: 5px; /* Add rounded corners */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove default underline */
+    display: inline-block; /* Ensure the element behaves like a block element */
+}
+
+#enroll-button:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+}
+

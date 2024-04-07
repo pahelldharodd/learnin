@@ -1,0 +1,81 @@
+body{
+    background-color: #212121;
+    font-family: "Sora", sans-serif;
+
+}
+
+.card {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.video {
+    width: 100%;
+    height: auto;
+}
+.user-info {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.user-name {
+    font-weight: bold;
+}
+.caption {
+    padding: 10px;
+}
+header {
+    max-height: 50px;
+    border-radius: 20px;
+    background-color: #212121;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /* Align items horizontally */
+    align-items: center; /* Align items vertically */
+    box-shadow: purple 5px 5px 25px;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-right: auto; /* Pushes the title to the left */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+h1, ul, a{
+    font-family: "Sora", sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 60);
+}
+
+.hero-content{
+    color: white;
+}
+#pfp-icon{
+    max-width: 30px;
+    max-height: 30px;
+}

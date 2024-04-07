@@ -1,0 +1,155 @@
+/* CSS styles for the course grid */
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.course {
+    border: 1px solid #8400ff;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #212121;
+    max-width: 1000px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.course h3 {
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 15px;
+    color: rgb(255, 255, 60); /* Yellow */
+}
+
+.course p {
+    margin-top: 5px;
+    max-width: 50%;
+    margin: auto;
+    color: white;
+}
+
+.course a {
+    display: block;
+    text-align: center;
+    background-color: #8400ff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.course a:hover {
+    background-color: #ff00ff; /* Change hover color to pink */
+}
+
+/* Additional styles */
+h1, ul, a {
+    font-family: "Sora", sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 60); /* Yellow */
+}
+
+h2, p, cite {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+#welcome {
+    font-size: 40px;
+    margin: 10px 0px 10px;
+}
+
+#welcomesubtext {
+    margin: 10px 0px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #102a43;
+    color: white;
+}
+
+header {
+    max-height: 50px;
+    border-radius: 20px;
+    background-color: #212121;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /* Align items horizontally */
+    align-items: center; /* Align items vertically */
+    box-shadow: purple 5px 5px 25px;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-right: auto; /* Pushes the title to the left */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 15px;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center; /* Center-align text */
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Style for Explore Courses button */
+.hero .btn {
+    display: inline-block;
+    background-color: #fff;
+    color: #007bff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.hero .btn:hover {
+    background-color: #ddd;
+}
+
+.testimonial {
+    border-radius: 15px;
+    background-color: #212121;
+}
+
+#pfp-icon {
+    max-width: 30px;
+    max-height: 30px;
+}
